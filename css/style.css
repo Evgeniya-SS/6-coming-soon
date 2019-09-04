@@ -5,7 +5,6 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 .hero {
@@ -14,7 +13,6 @@ body * {
     background-color: #03A9F5;
     padding-bottom: 20px;
     padding-top: 60px;
-
 }
     
 .main-content {
@@ -23,7 +21,6 @@ body * {
     background-color: #fff;
     padding-bottom: 60px;
     padding-top: 60px;
-
 }
 
 footer {
@@ -32,28 +29,38 @@ footer {
     background-color: #03A9F5;
     padding-bottom: 60px;
     padding-top: 20px;
-
 }
+
 .small-container {
     display: inline-block;
     width: 700px;
     margin-left: calc( (100% - 700px) / 2);
     background-color: red;
-
 }
 .container {
     display: inline-block;
     width: 1200px;
     margin-left: calc( (100% - 1200px) / 2);
-    background-color: red;
-    
 }
+    .container > .left {
+        display: inline-block;
+        width: 50%;
+        float: left;
+        background-color: green;
+    }
+
+    .container > .right {
+        display: inline-block;
+        width: 40%;
+        float: left;
+        margin-left: 10%;
+        background-color: blue;
+    }
 
 @media (max-width: 1300px) {
     .container {
         width: 900px;
         margin-left: calc( (100% - 900px) / 2);
-        background-color: orange;
     }
 }
 
@@ -61,7 +68,6 @@ footer {
     .container {
         width: 700px;
         margin-left: calc( (100% - 700px) / 2);
-        background-color: yellow;
     }
 
     .container > .left {
@@ -84,26 +90,9 @@ footer {
     .container {
         width: 500px;
         margin-left: calc( (100% - 500px) / 2);
-        background-color: pink;
     }
 }
 
-.container > .left {
-    display: inline-block;
-    width: 50%;
-    float: left;
-    background-color: green;
-
-}
-
-.container > .right {
-    display: inline-block;
-    width: 40%;
-    float: left;
-    margin-left: 10%;
-    background-color: blue;
-
-}
 @media (max-width: 600px) {
     .small-container {
         width: calc(100%-40px);
@@ -113,6 +102,5 @@ footer {
     .container {
         width: calc(100%-40px);
         margin-left: 0;
-        background-color: pink;
     }
 }
