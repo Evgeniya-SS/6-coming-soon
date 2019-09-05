@@ -29,7 +29,6 @@ body * {
         font-size: 70px;
         line-height: 80px;
         text-transform: uppercase;
-   
     }
 
     .hero p {
@@ -67,6 +66,25 @@ body * {
     padding-bottom: 60px;
     padding-top: 60px;
 }
+    .main-content h3 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+    .main-content p{
+        display: inline-block;
+        width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+    }
+        .main-content p > a {
+            color: red;
+            text-decoration: none;
+        }
+    
 
 footer {
     display: inline-block;
@@ -91,7 +109,7 @@ footer {
         display: inline-block;
         width: 50%;
         float: left;
-        background-color: green;
+        
     }
 
     .container > .right {
@@ -99,7 +117,7 @@ footer {
         width: 40%;
         float: left;
         margin-left: 10%;
-        background-color: blue;
+        
     }
 
 @media (max-width: 1300px) {
