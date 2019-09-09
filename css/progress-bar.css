@@ -1,0 +1,33 @@
+.progress-bar {
+    display: inline-block;
+    width: 100%;
+
+}
+    .progress-bar > .texts {
+        display: inline-block;
+        width: 100%;
+
+    }
+        .progress-bar > .texts > .title {
+            display: inline-block;
+            width: 100%;
+            
+        }
+        .progress-bar > .texts > .value {
+            display: inline-block;
+            width: 100%;
+            
+        }
+        .progress-bar > .bar {
+            display: inline-block;
+            width: 100%;
+            height: 6px;
+            background-color: #fff;
+            
+        }
+        .progress-bar > .bar > .value {
+            display: inline-block;
+            background-color: #03A9FP;
+            width: 90%;
+            
+        }
