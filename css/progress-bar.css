@@ -11,7 +11,7 @@
             display: inline-block;
             float: left;
         }
-        .progress-bar > .textx > .value {
+        .progress-bar > .texts > .value {
             display: inline-block;
             float: right;
         }
@@ -22,7 +22,7 @@
         height: 6px;
         background-color: #ececec;
     }
-        .progress-bar > .texts > .value {
+        .progress-bar > .bar > .value {
             display: inline-block;
             width: 90%;
             height: 100%;

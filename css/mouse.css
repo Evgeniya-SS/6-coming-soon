@@ -23,14 +23,14 @@
         animation-play-state: paused;
     }
 
-@keyframes {
+@keyframes scroll {
     0% {
-        margin-top 30px;
+        margin-top: 30px;
         opacity: 1;
         transform: rotate (0deg);
     }
     100% {
-        margin-top 90px;
+        margin-top: 90px;
         opacity: 0;
         transform: rotate (360deg);
     }
